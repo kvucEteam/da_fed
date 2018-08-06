@@ -1,0 +1,65 @@
+
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,300";
+
+
+body {
+    -moz-user-select: none;
+    color: #AB59A5;
+    font-family: Open Sans;
+    padding: 0 20px;
+    text-align: center;
+}
+
+img {
+    pointer-events: none;
+}
+
+
+.feed {
+    clear: both;
+}
+.bar {
+    background-color: #EEEEEE;
+    color: #EEEEEE;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 300;
+    position: absolute;
+    top: 135px;
+    width: 310px;
+}
+.barfill {
+    background-color: #333333;
+    color: #FFFFFF;
+    position: absolute;
+    top: 135px;
+    width: 5px;
+}
+
+.btn_next {
+    margin-top: 30px;
+}
+
+.button {
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 117px;
+    padding: 8px 10px;
+}
+
+.button_tjek{
+    background-color: #0093EC;
+}
+.button_proev{}
+.button_se{}
+.button_hjaelp{}
+.button_klar{}
+
+.resetdata {
+    cursor:pointer;
+}
+

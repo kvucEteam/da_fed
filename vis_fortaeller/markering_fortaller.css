@@ -1,0 +1,59 @@
+
+body {
+    color: black;
+}
+.correct {
+    background-color: #E9A1F6;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.correct:hover {
+    color: white;
+}
+.wordhover {
+    cursor: pointer;
+}
+.text_container{
+    height:300px;
+}
+
+.opg_instruks {
+    color: red;
+    font-size: 24px;
+}
+
+.btn_help {
+    background-color: #C915E9;
+    color: white;
+    float: right;
+    margin-right: 0;
+}
+.btn_1pers, .btn_3pers {
+    background-color: #5E5A56;
+    float: left;
+}
+.btn_next {
+    clear: both;
+}
+.selected_class {
+    background-color: #C915E9;
+    font-weight: bold;
+}
+.prik {
+    float: left;
+    margin-bottom: 8px;
+    margin-right: 15px;
+}
+.prikker {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.tekst {
+    float: left;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: #C915E9;
+}

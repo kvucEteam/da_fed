@@ -1,0 +1,89 @@
+
+body {
+    color: black;
+}
+.correct {
+    background-color: #5E5A56;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.correct:hover {
+    color: white;
+}
+.wordhover {
+    cursor: pointer;
+}
+.container {
+}
+
+.opg_instruks {
+    color: red;
+    font-size: 24px;
+}
+
+.btn_help {
+    background-color: #88e51c;
+    color: white;
+    float: right;
+    margin-right: 13px;
+    margin-top: 13px;
+}
+.btn_1pers, .btn_3pers {
+    background-color: #5E5A56;
+    float: left;
+}
+.btn_next {
+
+}
+.selected_class {
+    background-color: #C915E9;
+    font-weight: bold;
+}
+.prik {
+    float: left;
+    margin-bottom: 8px;
+    margin-right: 15px;
+}
+.prikker {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.tekst {
+    float: left;
+    margin-top: 10px;
+}
+
+.text_container {
+    height: auto;
+}
+
+
+.inner_container {
+     height: 370px;
+    overflow: auto;
+    padding: 10px 20px 10px 10px;
+    width: 560px;
+}
+
+.vits_container{
+ background-color: #F7F7F7;
+    cursor: pointer;
+    font-family: OPEN SANS;
+    font-size: 12px;
+    line-height: 1.7;
+    margin-top: 10px;
+    overflow: auto;
+    padding: 10px 20px 10px 10px;
+    width: 535px;
+}
+
+.vits_container:hover{
+    background-color: #d1f7a5;
+    
+}
+
+.shadow{
+    box-shadow: 4px 4px 2px #ddd;
+}

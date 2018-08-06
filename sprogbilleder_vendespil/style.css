@@ -1,0 +1,84 @@
+@import"http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,600italic,700italic,800italic,400,300,600,700,800";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 704px;
+}
+
+p {
+	font: 100 1em/1.2em 'Open sans', Arial, Helvetica, Geneva, sans-serif;
+}
+
+#container {
+	height: 584px;
+	width: 584px;
+	overflow: hidden;
+	border: solid 1px lightgray;
+	margin-left: 0px;
+}
+
+.card {
+	height: 25%;
+	width: 25%;
+	border: 2px solid #ffffff;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	position:relative;
+}
+
+.face {
+	background: #f5f5f5;
+	position:absolute;
+	height: 100%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #f5f5f5;
+	cursor: pointer;
+	-webkit-transition: width .1s ease-in-out 0s, background .1s ease-in-out 0s;
+	-moz-transition: width .1s ease-in-out 0s, background .1s ease-in-out 0s;
+	transition: width .1s ease-in-out 0s, background .1s ease-in-out 0s;
+}
+
+.front {
+	z-index: 10;
+	width: 100%;
+}
+
+.back {
+	width: 0%;
+	background: white;
+}
+
+.back p {
+	font-size: 2.5em;
+}
+
+.front p {
+	font-size: 5em;
+}
+
+.clickable.da .front {
+	background: #6AA289;
+}
+
+.clickable.de .front {
+	background: #59d0a4;
+}
+
+.overlay{
+	width:714px;
+}
+
+.btn_help{
+	margin-right: 120px;
+	background-color: #3CD39C;
+	padding-top:10px;
+}
+
